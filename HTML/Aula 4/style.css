@@ -1,0 +1,137 @@
+#banner1 {
+    border-collapse: collapse;
+    border: none;
+    background-color: #199BF1;
+}
+
+#banner2 {
+    border-collapse: collapse;
+    border: none;
+    text-decoration: none;
+}
+
+#gif {
+    min-height: 0px;
+    position: relative;
+    left: 10px;
+    padding-left: 0px;
+    padding-right: 10%;
+    width: 95%;
+}
+
+#demo {
+    text-align: left;
+    padding: 0px;
+    min-height: 0px;
+    background-color: #199BF1;
+    font-family: 'gill sans';
+    font-weight: bolder;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: white;
+}
+
+#footerBanner {
+    border-spacing: 10px;
+    line-height: 15px;
+    font-size: smaller;
+    text-align: left;
+}
+
+#footerText1 {
+    border-spacing: 10px;
+    line-height: 15px;
+    text-align: left;
+    font-size: smaller;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#footerText2 {
+    border-spacing: 10px;
+    line-height: 0.5px;
+    text-decoration: none;
+    text-align: left;
+    color: gray;
+    font-size: x-small;
+
+}
+
+#footerText3 {
+    text-align: left;
+    color: gray;
+    font-size: x-small;
+}
+
+#footerText4 {
+    border: none;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: x-small;
+    float: left;
+}
+
+#footerText5 {
+    border: none;
+    text-align: left;
+    font-size: x-small;
+    float: right;
+}
+
+table,
+th,
+td {
+    border: none solid black;
+    border-collapse: collapse;
+}
+
+#sectionLeft {
+    float: left;
+    width: 50%;
+}
+
+#sectionRigth {
+    float: right;
+    width: 50%;
+}
+
+input[type="submit"] {
+    float: left;
+    font-size: large;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    background: black;
+}
+
+input[type="email"] {
+    width: 450px;
+    height: 25px;
+    padding-right: 0px;
+    border: 1px solid lightgray;
+}
+
+#bannerText {
+    text-decoration: none;
+}
+
+header a {
+    color: gray;
+    font-weight: lighter;
+}
+
+#caixaEmail{
+    width: max-content;
+}
+
+#bannerText2 {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    bottom: 20px;
+    right: 10px;
+}

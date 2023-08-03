@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SHEIN</title>
+    <script>
+        // Identifica  a data limite
+        var countDownDate = new Date("Jul 31, 2023 22:00:00");
+
+        // Atualiza o contador a cada 1 seg
+        var x = setInterval(function () {
+
+            // Busca a data e hora de hoje
+            var now = new Date();
+
+            // Encontra a distancia entre as datas
+            var distance = countDownDate - now;
+
+            // Calculo para dias, horas, minutos e segundos.
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Mostra o resultado utilizado o id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            // Se acabar o tempo escreve algo
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "Até a proxima!";
+            }
+        }, 1000);
+    </script>
+</head>
+<header>
+    <section1>
+        <table id="banner1">
+            <tr>
+                <th id="banner1" width="80%" float="left"><img id="gif" src="HeaderGif.gif"></img></th>
+                <th id="banner1"><p id="demo"></p></th>
+            </tr>
+        </table>
+    </section1>
+    <section2>
+        <table>
+            <tr>
+                <th id="banner2"><a href="http://www.google.com" id="bannerText">TUDO &nbsp</a></th>
+                <th id="banner2"><a href="http://www.google.com" id="bannerText">PLUS SIZE &nbsp</a></th>
+                <th id="banner2"><a href="http://www.google.com" id="bannerText">INFANTIL &nbsp</a></th>
+                <th id="banner2"><a href="http://www.google.com" id="bannerText">MASCULINO &nbsp</a></th>
+                <th id="banner2"><a href="http://www.google.com" id="bannerText">BELEZA &nbsp</a></th>
+                <th id="banner2"><a href="http://www.google.com" id="bannerText">CASA + PETS &nbsp</a></th>
+                <th id="banner2"><img src="HeaderLogo.png" height="40px"></img></th>
+            </tr>
+        </table>
+    </section2>
+    <section3>
+        <a href="" id="bannerText2">Novidades</a>
+
+    </section3>
+</header>
+
+<body>
+    <img src="meta-logo.webp"></img>
+    <nav>
+
+    </nav>
+    <article></article>
+    <article></article>
+</body>
+<footer>
+    <section id="sectionLeft">
+        <div id="footerTable">
+            <table>
+                <tr id="footerBanner">
+                    <th><p>INFORMAÇÕES DA EMPRESA &nbsp;&nbsp&nbsp</p></th>
+                    <th><p>AJUDA E SUPORTE &nbsp;&nbsp&nbsp</p></th>
+                    <th><p>ATENDIMENTO AO CLIENTE</p></th>
+                </tr>
+                <tr id="footerBanner">
+                    <th><a href="" id="footerText2">Sobre SHEIN</a></th>
+                    <th><a href="" id="footerText2">Politica De Frete</a></th>
+                    <th><a href="" id="footerText2">Contate-Nos</a></th>
+                </tr>
+                <tr id="footerBanner">
+                    <th><a href="" id="footerText2">Política Para Vendedores</a></th>
+                    <th><a href="" id="footerText2">Devolução</a></th>
+                    <th><a href="" id="footerText2">Método De Pagamento</a></th>
+                </tr>
+                <tr id="footerBanner">
+                    <th><a href="" id="footerText2">Locais</a></th>
+                    <th><a href="" id="footerText2">Como Pedir</a></th>
+                    <th><a href="" id="footerText2">Pontos Bônus</a></th>
+                </tr>
+                <tr id="footerBanner">
+                    <th><a href="" id="footerText2">Sustentabilidade E Impacto</a></th>
+                    <th><a href="" id="footerText2">Como Rastrear</a></th>
+                </tr>
+                <tr id="footerBanner">
+                    <th><a href="" id="footerText2">Social</a></th>
+                    <th><a href="" id="footerText2">Guia De Tamanhos</a></th>
+                </tr>
+                <tr id="footerBanner">
+                    <th><a href="" id="footerText2">Carreiras</a></th>
+                    <th><a href="" id="footerText2">SHEIN VIP</a></th>
+                </tr>
+            </table>
+            <p></br></br></br></br></p>
+
+            <p id="footerText3"> &copy; 2009-2023 Todos os direitos reservados SHEIN</p>
+            <a id="footerText3" href="http://www.google.com">Centro de Privacidade</a> |
+            <a id="footerText3" href="http://www.google.com">Política de Privacidade e Cookies</a> |
+            <a id="footerText3" href="http://www.google.com">Termos e condições</a> |
+            </br>
+            <a id="footerText3" href="http://www.google.com">Aviso IP</a> |
+            <a id="footerText3" href="http://www.google.com">Imprimir</a> |
+            <img src="pinoMapa.png" width="10px">
+            <a id="footerText3" href="http://www.google.com">Brazil</a>
+        </div>
+    </section>
+    <section id="sectionRight">
+        <table>
+            <tr>
+                <th id="footerText4">ENCONTRE-NOS EM</th>
+                <th id="footerText5">APP</th>
+            </tr>
+            <tr>
+                <th id="footerText4">
+                    <img src="facebook.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="insta.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="tt.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="you.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="pin.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="snap.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="tik.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="linkedin.png" width="30px" href="">&nbsp;&nbsp</img>
+                </th>
+                <th>
+                    <img src="Apple.png" width="30px" href=""></img>
+                    <img src="android.png" width="30px" href=""></img>
+                </th>
+                
+                </tr>
+                <tr>
+                    <th id="footerText1">CADASTRE-SE PARA RECEBER AS NOTÍCIAS SOBRE SHEIN.</th>
+                </tr>
+                <tr>
+                    <th><input type="email" id="email" name="email" placeholder="Endereço do Seu Email"></th>
+                    <th background-color="black"><input type="submit" id="submit" value="Inscreva-se" color="white">
+                    </th>
+                </tr>
+                </br>
+                <tr>
+                    <th id="footerText1">
+                        <p>PAGAMENTO</p>
+                    </th>
+                </tr>
+                <tr>
+                    <th id="footerText4">
+                    <img src="master.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="visa.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="maestro.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="dinners.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="american.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="elo.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="hiper.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="boleto.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="pay.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="instaltment.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="pix.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="caixa.png" width="30px" href="">&nbsp;&nbsp</img>
+                    </br>
+                    <img src="mercado.png" width="30px" href="">&nbsp;&nbsp</img>
+                    <img src="apay.png" width="30px" href="">&nbsp;&nbsp</img>
+                    </th>
+                </tr>
+        </table>
+    </section>
+</footer>
+
+</html>
