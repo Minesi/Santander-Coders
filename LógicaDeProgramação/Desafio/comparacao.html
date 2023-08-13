@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador</title>
+    <style>
+        input{
+            width: 25px;
+            text-align: center;
+        }
+        #result{
+            width: 70px;
+        }
+        #button{
+            width: 70px;
+        }
+        select{
+            height: 21px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comparador</h1>
+    <h2>Autor: Michael Neves Silva</h2>
+    <hr/>
+    <input type="number" id="n1" placeholder="0">
+    <select name="" id="operador">
+        <option value="maior">></option>
+        <option value="menor"><</option>
+        <option value="maiorIgual">>=</option>
+        <option value="menorIgual"><=</option>
+        <option value="diferente">!=</option>
+        <option value="igual">=</option>
+    </select>
+    <input type="number" placeholder="0" id="n2"/>
+    <input type="button" id="button" value="Calcular" onclick="calcular()"/>
+    <input type="text" placeholder="Resultado" id="result" disabled/>
+    <hr/>
+    <script src="comparacao.js"></script>
+</body>
+</html>
